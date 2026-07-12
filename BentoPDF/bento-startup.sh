@@ -22,4 +22,3 @@ until curl -s "$URL" >/dev/null; do
 done
 
 notify-send "BentoPDF is ready."
-
