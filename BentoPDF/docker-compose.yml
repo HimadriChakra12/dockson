@@ -1,0 +1,10 @@
+services:
+  bentopdf:
+    image: bentopdf/bentopdf:latest
+    container_name: bentopdf
+    ports:
+      - "3000:8080"
+    volumes:
+      - $HOME/.dockerdat/profile:/profile
+      - $HOME/.dockerdat/data:/data
+    restart: unless-stopped
