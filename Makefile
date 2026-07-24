@@ -16,3 +16,6 @@ nuke:
 
 %:
 	@:
+
+ps:
+	@docker ps
